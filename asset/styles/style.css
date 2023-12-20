@@ -380,7 +380,7 @@ section {
 
 .app {
     position: relative;
-    top: 190px;
+    top: 140px;
     background: var(--white-color);
     width: 90%;
     max-width: 750px;
@@ -416,14 +416,15 @@ section {
 
 .box {
     background: var(--white-color);
-    color: var(--text-color);
-    font-weight: 500;
+    color: #1d002c;
+    font-weight: 700;
+    font-size: 1.5rem;
     width: 100%;
     border: 1px solid var(--main-color);
     text-align: left;
-    border-radius: 5px;
+    border-radius: 25px;
     cursor: pointer;
-    padding: 10px;
+    padding: 10px 15px;
     margin: 10px 0;
     text-align: left;
     transition: .5s;
@@ -431,7 +432,7 @@ section {
 
 .box:hover:not([disabled]) {
     background: var(--main-color);
-    color: var(--white-color);
+    color: #1d002c;
 }
 
 .box:disabled {
@@ -439,16 +440,25 @@ section {
 }
 
 #next-btn {
-    background: var(--main-color);
-    color: var(--white-color);
-    font-weight: 500;
+    background: hotpink;
+    color: #1d002c;
+    font-weight: 700;
+    font-size: 1.2rem;
     width: 150px;
-    border: 0;
+    border: solid 2px hotpink;
     padding: 10px;
     cursor: pointer;
     margin: 20px auto 0;
-    border-radius: 5px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px hotpink;
     display: none;
+}
+
+#next-btn:hover {
+    box-shadow: 0 0 10px hotpink;
+    background: #1d002c;
+    color: hotpink;
 }
 
 .correct {

@@ -449,6 +449,7 @@ function selectAnswer(e) {
 function showScore() {
   resetState();
   questionEl.innerHTML = `You scored ${score} out of ${maxAttempts}`;
+  questionEl.style=('font-size: 3rem','font-wight: 700');
   nextBtn.innerHTML = "Play Again";
   nextBtn.style.display = "block";
 }
