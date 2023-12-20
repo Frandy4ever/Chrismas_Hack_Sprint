@@ -1,4 +1,14 @@
-* {
+:root {
+    --wrong-answer-color: #ff69b4;
+    --right-answer-color: #12f7ff;
+    --text-color: #09090b;
+    --main-color: #0ef;
+    --white-color: #f1f5f9;
+    --color: #001e4d;
+}
+
+
+*, *::after, *::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -21,7 +31,7 @@
 
 body {
     font-family: 'Ranade', sans-serif;
-    background: #1d002c;
+    background: #0f0c36;
     color: #fff;
     overflow-x: hidden;
 }
@@ -80,7 +90,7 @@ header .logo span {
 }
 
 header .logo #fox {
-    color: hotpink;
+    color: #ff69b4;
 }
 
 ul.navlist {
@@ -358,11 +368,94 @@ section {
 }
 
 /* **************************** */
+/* Xmas Quiz Section  */
 /* **************************** */
 
-.sleigh {
-    background-image: url('../image/products/santa-on-sleigh.jpg');
+.xmas-quiz {
+    background-image: url('../image/quiz/xmasBckg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.app {
+    position: relative;
+    top: 190px;
+    background: var(--white-color);
+    width: 90%;
+    max-width: 750px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    background-image: url('../image/quiz/santa-on-boat.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.app h3 {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 3rem;
+    color: #ff69b4;
+    font-weight: 600;
+    border-bottom: 1px solid #ff69b4;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+
+.quiz {
+    padding: 20px 0;
+}
+
+.quiz h2 {
+    font-size: 1.8rem;
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+.box {
+    background: var(--white-color);
+    color: var(--text-color);
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid var(--main-color);
+    text-align: left;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    transition: .5s;
+}
+
+.box:hover:not([disabled]) {
+    background: var(--main-color);
+    color: var(--white-color);
+}
+
+.box:disabled {
+    cursor: no-drop;
+}
+
+#next-btn {
+    background: var(--main-color);
+    color: var(--white-color);
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    cursor: pointer;
+    margin: 20px auto 0;
+    border-radius: 5px;
+    display: none;
+}
+
+.correct {
+    background: var(--right-answer-color);
+    color: white;
+}
+
+.incorrect {
+    background: var(--wrong-answer-color);
 }
