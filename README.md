@@ -40,8 +40,7 @@ If you'd like to contribute, please follow these steps:
 For support, please email [frandy4ever@gmail.com] or open an issue in the GitHub repository.
 
 ## Authors
-* Frandy Slueue
-* Fox Galilio
+[View contributors](https://github.com/Frandy4ever/holberton-Chrismas_Hack_Sprint/blob/main/AUTHORS)
 
 ## License
 This project is licensed under the [MIT License](https://github.com/Frandy4ever/holberton-Chrismas_Hack_Sprint/blob/main/LICENSE) - see the LICENSE file for details.
