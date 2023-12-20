@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    height: 1rem;
+    width: .5rem;
+}
+::-webkit-scrollbar-track {
+    background: #67ccff;
+}
+
+::-webkit-slider-thumb {
+    background: #194eb9;
+    border-radius: 5rem;
+}
+
+body {
+    font-family: 'Ranade', sans-serif;
+    background: #1d002c;
+    color: #fff;
+    overflow-x: hidden;
+}
+/* ********************* */
+/* Buttons styles  */
+/* ********************* */
+.btn {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    padding: .6rem 1rem;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.btn-clear {
+    box-shadow: 0 0 10px #12f7ff;
+    background: #12f7ff;
+    color: #1d002c;
+    transition: all 0.3s ease;
+    border: solid 2px #12f7ff;
+}
+
+.btn-hover-blue {
+    border: solid 2px #12f7ff;
+}
+
+.btn-hover-hotpink {
+    border: solid 2px #ff69b4;
+}
+
+.btn-clear:hover {
+    box-shadow: 0 0 10px #12f7ff;
+    background: #1d002c;
+    color: #12f7ff;
+}
+
+.btn-hover-blue:hover,
+.active {
+    box-shadow: 0 0 10px #12f7ff;
+    background: #12f7ff;
+    color: #1d002c;
+}
+
+.btn-hover-hotpink:hover {
+    box-shadow: 0 0 10px #ff69b4;
+    background: #ff69b4;
+    color: #1d002c;
+}
+
+/* **************************** */
+Images styles
+/* **************************** */
+.img {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    pointer-events: none;
+}
+
+
