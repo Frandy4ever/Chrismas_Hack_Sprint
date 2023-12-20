@@ -69,6 +69,7 @@ document.addEventListener("DOMContentLoaded", function() {
   function createSnowflake() {
     const snowflake = document.createElement("div");
     snowflake.className = "snowflake";
+    snowflake.style.zIndex = 2000; 
     document.body.appendChild(snowflake);
 
     resetSnowflake(snowflake);
@@ -102,6 +103,7 @@ document.addEventListener("DOMContentLoaded", function() {
   function createEmoji() {
     const emoji = document.createElement("div");
     emoji.className = "emoji";
+    emoji.style.zIndex = 2000;
     document.body.appendChild(emoji);
 
     resetEmoji(emoji);
