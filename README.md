@@ -2,6 +2,9 @@
 ---
 ---
 # Holberton Xmas Hack Sprint Website
+
+## A Christmas WonderLand..!
+
 ## Overview
 Welcome to the Holberton Xmas Hack Sprint website! This website is designed to celebrate the festive season with the students and community of Holberton School. We aim to bring joy and cheer through a series of engaging activities, quizzes, and prize giveaways.
 
