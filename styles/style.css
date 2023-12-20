@@ -102,14 +102,22 @@ ul.navlist {
     cursor: pointer;
     border-radius: 25px;
     transition: all 0.3s ease;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
 }
 
-.btn-clear {
+.btn-clear-blue {
     box-shadow: 0 0 10px #12f7ff;
     background: #12f7ff;
     color: #1d002c;
     transition: all 0.3s ease;
     border: solid 2px #12f7ff;
+}
+.btn-clear-hotpink {
+    box-shadow: 0 0 10px #ff69b4;
+    background: #ff69b4;
+    color: #1d002c;
+    transition: all 0.3s ease;
+    border: solid 2px #ff69b4;
 }
 
 .btn-hover-blue {
@@ -135,10 +143,15 @@ ul.navlist {
     box-shadow: 0 0 10px #12f7ff;
 }
 
-.btn-clear:hover {
+.btn-clear-blue:hover {
     box-shadow: 0 0 10px #12f7ff;
     background: #1d002c;
     color: #12f7ff;
+}
+.btn-clear-hotpink:hover {
+    box-shadow: 0 0 10px #ff69b4;
+    background: #1d002c;
+    color: #ff69b4;
 }
 
 .btn-hover-blue:hover,
@@ -268,6 +281,10 @@ section {
     z-index: 999;
     text-align: center;
     transition: all 0.4s ease;
+    background-image: url('../image/products/night-santa-sleigh.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .card:hover {
@@ -276,8 +293,8 @@ section {
 }
 
 .card .magic-text {
-    font-size: 5rem;
-display: inline-block;
+    font-size: 7rem;
+    display: inline-block;
     width: 150px;
     height: 150px;
     margin-top: -4rem;
@@ -300,6 +317,7 @@ display: inline-block;
 
 .info p {
     padding: .5rem 0 1.5rem 0;
+    visibility: hidden;
 }
 
 .info .btn {
@@ -337,4 +355,14 @@ display: inline-block;
     background: #1d002c;
     border-radius: 50%;
     font-size: 30px;
+}
+
+/* **************************** */
+/* **************************** */
+
+.sleigh {
+    background-image: url('../image/products/santa-on-sleigh.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
